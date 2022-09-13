@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: white;
+
+}
+
+.title {
+
+    text-align: center;
+    color: purple;
+
+}
+
+/*MAIN BLOCKS*/
+.container{
+
+    width:80%;
+    margin:auto;
+
+    
+}
+.box-1 {
+    color:white;
+
+    border:5px white solid; 
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    
+    display:block;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto; 
+    
+
+}
+
+table {
+    width: 100%;
+  }
+  table, th, td {
+    border: 1px solid;
+    color: teal;
+  }
+
+.center {
+    display: block; 
+
+
+}
+
+.car {
+
+    margin-left: auto;
+    margin-right: auto;
+    height:500px;
+    width: 300px;
+    
+}
+img {
+    width: auto; 
+    max-height: 50%; 
+}
+
+
+/*FOOTER*/
+.footer {
+
+    color: white;
+
+}
+
+
