@@ -1,3 +1,15 @@
+/*
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Shafaat Osmani, UMass Lowell Computer Science, Shafaat_Osmani@student.uml.edu
+Copyright (c) 2022 by Shafaat. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author. This file contains the CSS
+styling for the index.html file.
+updated by SO on September 11, 2022 at 11:00AM
+*/
+
+/* This is the styling for the entire page. Everything on the page will follow these 
+styling formats. */
 body{
     background-color: black;
 
@@ -6,7 +18,7 @@ body{
     color: white;
 
 }
-
+/* The title class aligns and colors the title of the page and secondary heading. */
 .title {
 
     text-align: center;
@@ -15,6 +27,9 @@ body{
 }
 
 /*MAIN BLOCKS*/
+
+/* The container class affects each "block" of info on the page (for each car brand). This and the box-1 class 
+styles the alignment and box colors for the page, as well as the box size. */
 .container{
 
     width:80%;
@@ -39,6 +54,7 @@ body{
 
 }
 
+/* This section affects all tables on the page. It formats them to be easier to read and changes the color. */
 table {
     width: 100%;
   }
@@ -47,12 +63,13 @@ table {
     color: teal;
   }
 
+  /* The center class makes the informational text also a block. */
 .center {
     display: block; 
-
-
 }
 
+/* This class and the img class both resize and align the images, or else the images would be too large for the reader
+to properly view. */
 .car {
 
     margin-left: auto;
@@ -68,6 +85,7 @@ img {
 
 
 /*FOOTER*/
+/* This class simply changes the footer color so it is visible.*/ 
 .footer {
 
     color: white;
