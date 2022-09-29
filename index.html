@@ -1,299 +1,78 @@
-<!--
-File: index.html
-GUI Assignment: Creating Your First Web Page
-Shafaat Osmani, UMass Lowell Computer Science, Shafaat_Osmani@student.uml.edu
-Copyright (c) 2022 by Shafaat. All rights reserved. May be freely copied or
-excerpted for educational purposes with credit to the author. The purpose of this site is
-to display and inform the reader about my favorite German cars. 
-updated by SO on September 11, 2022 at 11:00AM
--->
-
-
 <!DOCTYPE html>
-<html>
-
-<!-- tab title -->
-<!-- 
-    This section is for the browser tab heading. 
--->
-
+<html lang="en">
 <head>
-    <title>SHAFAAT'S WEB PAGE</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
+    <title>Pacific Trails Resort</title>
+    <meta charset="utf-8">
+    <link href="pacific.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   <![endif]-->
 </head>
 
 
 
-<!-- title for page -->
-<!-- 
-    This section displays the two headings of the site, the main page title and the secondary heading.  
--->
+
+
+
+
 <body>
-    <div class="title">
-        <h1>My Favorite Cars From Each Luxury German Brand</h1>
-        <h4>Here is a list of my favorite German cars! :)</h4>
-    </div>
 
-<!-- 
-    Each paragraph first displays the informational text, then the image of the respective cars. 
-    Paragraphs are displayed in block form for each car brand and are styled using CSS. 
--->
 
-    <!-- paragraph 1 -->
-    
+    <div id="wrapper">
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
 
-    <div class="container">
-        <div class="box-1">
 
-            <h3>Mercedes-Benz<br></h3>
-            <div class="center">
-                <p>
-                    The first car pictured here is the Mercedes-AMG CLS63s Coupe (yes it is still a coupe even though it
-                    has 4 doors!). This is one my favorite cars of all time. It's quite rare compared to other AMGs and
-                    it has the sloped-roof look which I feel fits me very well. Under the hood is a 5.5-liter V8, 577
-                    horsepower producing MONSTER (a few tunes can take this beast to another level in terms of power and
-                    speed). <br><br> Depicted second here is an AMG G63 SUV. This is a very popular car in middle
-                    eastern countries such as Dubai and Qatar due to its off-road performance. Dune bashing in this
-                    machine is quite the experience and it is also very practical due to its large trunk space. It is
-                    also powered by a 4.0-liter V8 pushing out 577 horsepower.
-                </p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="yurts.html">Yurts</a>
+                </li>
+                <li><a href="activities.html">Activities</a>
+                </li>
+                <li><a href="reservations.html">Reservations</a>
+            </ul>
+        </nav>
 
-                <div class="car">
-                    <img src="images/mercedes.jpg" alt="Image">
-                    <img src="images/mercedes2.jpg" alt="Image">
-                </div>
 
-            </div>
+        <div id="content">
+            <h2>Enjoy Nature in Luxury</h2>
+            
+            <img src="coast.jpg" alt="Pacific Coast">
+            <p><span class="resort">Pacific Trails Resort</span> offers a special lodging experience on the California North Coast. Relax in serenity with panoramic views of the Pacific Ocean.</p>
+            <ul>
+                <li>Private yurts with decks overlooking the ocean</li>
+                <li>Activities lodge with fireplace and gift shop</li>
+                <li>Nightly fine dining at the Overlook Cafe</li>
+                <li>Heated outdoor pool and whirlpool</li>
+                <li>Guided hiking tours of the redwoods</li>
+            </ul>
 
-        </div>
-    </div>
+            
 
-    <!-- paragraph 2 -->
-
-    <div class="container">
-        <div class="box-1">
-            <h3>Porsche<br></h3>
-            <div class="center">
-                <p>
-                    First from Porsche we have the 911 GT3 RS. It is a legendary track weapon and is fitted with tons of
-                    carbon fiber components which make it extremely light and nimble. It is powered by a flat-6 pushing
-                    out 518 horsepower. <br><br> Second we have another legendary car <a
-                        href="https://www.youtube.com/watch?v=RurHZGQtbmg" target="_blank">renowned for its speed.</a>
-                    The Turbo S has been shown to beat plenty of high-powered supercars, even though it only has a
-                    flat-6 turbocharged engine producing 640 horsepower. Also, if you cannot tell by now, I like all my
-                    cars in full black.
-                </p>
-                <div class="car">
-                    <img src="images/porsche.jpg" alt="Image">
-                    <img src="images/porsche2.jpg" alt="Image"><br><br>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- paragraph 3 -->
-
-    <div class="container">
-        <div class="box-1">
-            <h3>Audi<br></h3>
-            <div class="center">
-                <p>
-                    Now, Audi. Audi is well known for having one of the best all-wheel-drive systems in the market,
-                    known as Quattro. This makes the RSQ8 one of the most practical cars on this list. Pictured first,
-                    this very large family-SUV is the perfect daily driver. Under the hood lies a 4.0-liter V8 making
-                    591 horsepower. Car tuning companies such as Mansory have been able to <a
-                        href="https://www.youtube.com/watch?v=nQbdvyIQO2o" target="_blank">draw out even more power from
-                        the RSQ8s engine.</a> <br><br> Second, we have the Audi RS7. Similar to the CLS, this car is a
-                    4-door coupe with that very attractive sloped roofline and quite long body. I have been able to
-                    witness many of these in person and they are truly one of the best cars the engineers at Audi have
-                    produced. The RS7 contains a 4.0-liter V8 pushing out 591 horsepower.
-                </p>
-                <div class="car">
-                    <img src="images/audi.jpg" alt="Image">
-                    <img src="images/audi2.jpg" alt="Image"><br><br>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- paragraph 4 -->
-
-    <div class="container">
-        <div class="box-1">
-            <h3>BMW<br></h3>
-            <div class="center">
-                <p>
-                    BMW is not at the top of my list for favorite German brands, but I cannot deny BMW's performance
-                    capabilities. First, we have the M4. An inline-6 producing up to 543 horsepower stock. The M4 is a
-                    popular tuner car can be modified to produce even more power. <br><br> Next, we have one of the most
-                    aggressive looking BMWs ever made, which is why it is my favorite. The X6 M is a powerful beast
-                    powered by a large 4.4-liter V8 outputting 617 horsepower. My favorite thing about this car is the
-                    SUV coupe style (yes SUVs come in coupe form now). It is hard to display how giant this car actually
-                    is without showing it to you in person.
-                </p>
-                <div class="car">
-                    <img src="images/bmw.jpg" alt="Image">
-                    <img src="images/bmw2.jpg" alt="Image"><br><br>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-    <!-- TABLES -->
-
-    <!--
-        Each brand has a table for the car models listed on the page. The header displays the brand as well as the attributes
-        rated. The next two rows display the model name and rating for each attribute. Each table is separated by a breakline.  
-    -->
-
-    <div class="container">
-        <div class="box-1">
-            <h3>Rating Each Brand<br></h3>
-            <h5>- Each rating is out of 5<br><br></h5>
-            <div class="center">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Mercedes-Benz</th>
-                            <th>Performance</th>
-                            <th>Comfort</th>
-                            <th>Reliability</th>
-                            <th>Luxury Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>CLS63s</td>
-                            <td>4.0</td>
-                            <td>4.0</td>
-                            <td>2.9</td>
-                            <td>3.0</td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>G63</td>
-                            <td>4.5</td>
-                            <td>4.0</td>
-                            <td>3.7</td>
-                            <td>4.5</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div id="contact">
+                <span class="resort">Pacific Trails Resort</span>
+                <br> 12010 Pacific Trails Road
+                <br> Zephyr, CA 95555
                 <br>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Porsche</th>
-                            <th>Performance</th>
-                            <th>Comfort</th>
-                            <th>Reliability</th>
-                            <th>Luxury Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>911 GT3 RS</td>
-                            <td>5.0</td>
-                            <td>4.0</td>
-                            <td>5.0</td>
-                            <td>2.0</td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>911 Turbo S</td>
-                            <td>5</td>
-                            <td>5</td>
-                            <td>5</td>
-                            <td>4.5</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <br> 888-555-5555
                 <br>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Audi</th>
-                            <th>Performance</th>
-                            <th>Comfort</th>
-                            <th>Reliability</th>
-                            <th>Luxury Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>RSQ8</td>
-                            <td>4.0</td>
-                            <td>4.0</td>
-                            <td>3.5</td>
-                            <td>4.0</td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>RS7</td>
-                            <td>4.0</td>
-                            <td>4.0</td>
-                            <td>3.0</td>
-                            <td>4.0</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>BMW</th>
-                            <th>Performance</th>
-                            <th>Comfort</th>
-                            <th>Reliability</th>
-                            <th>Luxury Features</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>M4</td>
-                            <td>4.0</td>
-                            <td>3.0</td>
-                            <td>2.0</td>
-                            <td>2.5</td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>X6 M</td>
-                            <td>4.0</td>
-                            <td>4.2</td>
-                            <td>3.0</td>
-                            <td>3.5</td>
-                        </tr>
-                    </tbody>
-                </table>
                 <br>
             </div>
         </div>
+
+
+        <footer>
+            Copyright &copy; 2014 Pacific Trails Resort
+            <br>
+            <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+        </footer>
+
+
     </div>
 
-    <!-- FOOTER + ICON-->
-
-    <!--
-        This part displays the html and css validation icon and the copyright. 
-    -->
-
-    <div class="footer">
-        <p>Copyright ©2022 Shafaat's Favorite German Sports Cars</p>
-    </div>
-
-    <p>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-                alt="Valid CSS!" />
-        </a>
-    </p>
 
 </body>
 
